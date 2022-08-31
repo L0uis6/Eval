@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Association a but non lucratif visant a la préservation des coraux de Polynésie Française">
+  <title>L'Association de préservation des coraux de Polynésie.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <!--header/barre de navigation, menu en ligne ou hamburger sur mobile -->
+  <nav class="navbar dark-mode" role="navigation">
+    <div class="navbar__logo">Logo</div>
+  <ul class="navbar__links">
+    <li class="navbar__link first"><a href="index.html">Accueil</a></li>
+    <li class="navbar__link second"><a href="#">Missions</a></li>
+    <li class="navbar__link third"><a href="#">Qui sommes nous ?</a></li>
+    <li class="navbar__link four"><a href="#">Merchandising</a></li>
+    <li class="navbar__link fifth"><a href="#">Contact</a></li>
+  </ul>
+  <button class="burger">
+    <span class="bar"></span>
+  </button>
+</nav>
+<main class="main-content" role="main"> 
+  <div class="overlayer">
+    <div class="img-background"></div>
+  </div>
+
+  <div class="container-xxl my-container">
+    <h1>L'Association de préservation des coraux de Polynésie Française</h1>
+    <p class="citation">"L'homme se doit d'être le gardien de la nature, non son propriétaire." Philippe St Marc</p>
+    <div class="coral-gardeners">
+      <!-- <image class="picture-1" src="Pictures/coral-gardeners-nursery.avif"></image> -->
+    </div>
+  </div>
+
+</main>
+
+
+<!--Script JS pour le click souris-->
+ <script defer>
+  function toggleMenu () {  
+      const navbar = document.querySelector('.navbar');
+      const burger = document.querySelector('.burger');
+      burger.addEventListener('click', (e) => {    
+        navbar.classList.toggle('show-nav');
+      });    
+    }
+    toggleMenu();
+    </script>
+</body>
+</html>
