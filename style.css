@@ -228,14 +228,7 @@ footer {
     width:100%;
 }
 
-/* .coral-gardeners { 
-    
-  max-width: 34%;
-  max-height: 57%;
-  margin-left: 5%;
-  margin-top: 2%;
-  border-radius: 12px;
-} */
+
 .picture-1  {
   width: 100%;
   height: 100%;
@@ -254,12 +247,6 @@ footer {
 }  
 
 
-/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .coral-gardeners {
-    
-
-  }
-} */
     
 @media only screen and (min-width : 1024px) {
   .coral-gardeners {
